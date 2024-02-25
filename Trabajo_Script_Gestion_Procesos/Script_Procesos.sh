@@ -14,7 +14,8 @@
 
 maxCPU=$1 
 maxMem=$2 
-if [[ -z $1 or $2 ]]; then
+argumento=""
+if [[ -z $argumento != 2 ]]; then
     echo 'Error'
 
 read -p "Introduzca el maximo de porcentaje de CPU: " maxCPU
