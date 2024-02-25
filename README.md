@@ -1,3 +1,3 @@
 # SSF
 
-a
+Repositorio dedicado a la asignatura de Sistema Informáticos
