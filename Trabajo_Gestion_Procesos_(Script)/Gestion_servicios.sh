@@ -82,17 +82,8 @@ service_manage_menu "$active_status" "$boot_status"
     read -p "Introduzco su la opcion que desee: " opcion
     case "$opcion" in
         1)
-        if [ $active_status ]
-            read -p "Parece que ya está activo, ¿deseas desenmascararlo? (si/no)" respuesta
-            if [[ $respuesta == "si" ]]; then
-                systemctl unmask $service_name
-        fi
-        echo "Activando servicio"
-        service $service_name status
         ;;
         2)
-        echo "Habilitando servicio"
-
         ;;
         3)
         ;;
