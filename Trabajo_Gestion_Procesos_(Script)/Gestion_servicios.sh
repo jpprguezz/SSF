@@ -86,8 +86,7 @@ service_manage_menu "$active_status" "$boot_status"
             read -p "Parece que ya está activo, ¿deseas desenmascararlo? (si/no)" respuesta
             if [[ $respuesta == "si" ]]; then
                 systemctl unmask $service_name
-
-
+        fi
         echo "Activando servicio"
         service $service_name status
         ;;
