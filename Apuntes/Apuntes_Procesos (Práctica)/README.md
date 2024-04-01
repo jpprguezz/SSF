@@ -141,6 +141,7 @@
 ### Cosas sueltas
 
 - find / -name "*" > `/dev/null` --> el directorio `null `  sirve para redirigir la salida y que no salga por pantalla
+- `nohup aragorn > ~/aragorn.out 2> ~/aragorn.err &` --> ejecutará el programa "aragorn" en segundo plano, ignorando la señal de cierre, y redirigirá tanto la salida estándar como la salida de error estándar del programa hacia archivos específicos (el `2>` se usa para indicar la salida de error al archivo que queramos y el `.out` indica la salida que de el comando)
 
 
 ## Comandos utilizados con los procesos (Windows)
