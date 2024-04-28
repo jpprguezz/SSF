@@ -60,6 +60,11 @@
 # Ejemplos de `chmod`
 - **`chmod 777 dir1`**: Permisos para todos.
 - **`chmod 600 fich1`**: Permisos para usuario.
+- **`chmod 660`**: Permisos r/w para u/g, sin permisos para otros
+- **`chmod 750`**: Permisos r/x para u, permiso de x para g, y sin permisos para otros
+- **`chmod 755`**: Permisos r/x para u y g, para otros, solo r
+- **`chmod 775`**: Permisos r/w/x para u y g pero solo x para otros
+- **`chmod 700`**: Permisos r/w/x para u, sin permisos para g y otros
 
 ## Primeras Letras y Tipos de Archivos
 - **`-`**: Fichero.
