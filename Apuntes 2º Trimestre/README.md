@@ -293,6 +293,10 @@ echo "Argumentos como cadena (\$*): $*"
 - Familia de comandos `apt-...` (apt-get, apt-cache) es común.
 - Ejemplo: `apt install paquete` para instalar un paquete.
 
+- Tabla con todos los comandos apt
+
+![alt text](image.png)
+
 ### Otros Comandos y Herramientas:
 - `aptitude`: Interactivo, no recomendado para scripts.
 - Herramientas gráficas como Synaptic.
